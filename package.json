@@ -1,4 +1,6 @@
 {
+  "name": "nextjs-dashboard-tzuhanchen",
+  "description": "Next.js Learn Course dashboard app",
   "private": true,
   "scripts": {
     "build": "next build",
