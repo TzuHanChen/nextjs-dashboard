@@ -80,7 +80,7 @@ export default function LoginForm() {
       <div className="flex-1 rounded-lg bg-gray-50 px-6 py-4 text-gray-900">
         <p>You may use this account to login :</p>
         <p>Email: user@nextmail.com</p>
-        <p>Password: 123456</p>
+        <p>Password: dashboard</p>
       </div>
     </form>
   );
