@@ -9,7 +9,7 @@ import { lusitana } from '@/app/ui/fonts';
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-40">
         <AcmeLogo />
       </div>
 
@@ -21,6 +21,9 @@ export default function Page() {
               Next.js Learn Course
             </a>
             , brought to you by Vercel.
+          </p>
+          <p className={`${lusitana.className} text-base text-gray-800 md:text-lg md:leading-normal`}>
+            Step-by-step finished and polished by <strong>TzuHan Chen</strong>
           </p>
           <Link
             href="/login"
