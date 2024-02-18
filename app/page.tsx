@@ -22,7 +22,7 @@ export default function Page() {
             </a>
             , brought to you by Vercel.
           </p>
-          <p className={`${lusitana.className} text-base text-gray-800 md:text-lg md:leading-normal`}>
+          <p className={`${lusitana.className} text-base text-gray-800 md:text-xl md:leading-normal`}>
             Step-by-step finished and polished by <strong>TzuHan Chen</strong>
           </p>
           <Link
